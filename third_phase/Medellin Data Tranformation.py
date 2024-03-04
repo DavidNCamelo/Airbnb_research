@@ -78,7 +78,8 @@ df_csv['Commune_name'].replace({'El Poblado': 'Guayabal',
                                  'La Candelaria': 'Laureles Estadio',
                                  'Laureles Estadio': 'Popular',
                                  'Popular': 'Robledo',
-                                 '12 de Octubre': 'El Poblado'}, inplace=True)
+                                 '12 de Octubre': 'El Poblado',
+                                 'Manrique': 'Popular'}, inplace=True)
 
 #Revisar listado de comunas
 print(df_csv['Commune_name'].unique())
